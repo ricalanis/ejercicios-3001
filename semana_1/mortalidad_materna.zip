@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="es" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="es" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/busca//fanstatic/vendor/:version:2018-06-14T20:59:44/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/busca//fanstatic/vendor/:version:2018-06-14T20:59:44/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/busca//fanstatic/vendor/:version:2018-06-14T20:59:44/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/busca//fanstatic/mxtheme/:version:2018-08-29T21:48:42/mx.css" />
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan " />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Abiertos de México - Mortalidad Materna - Mortalidad Materna para el periodo 2002 - 2016 de SALUD</title>
+
+    
+    
+  
+      <link rel="shortcut icon" href="https://datos.gob.mx/img/favicon.ico" />
+      
+      <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/polymer/polymer.html">
+      <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/dgm-navbar/dgm-navbar.html">
+      <link rel="import" href="https://cdn.datos.gob.mx/qa/bower_components/dgm-footer/dgm-footer.html">
+    
+  
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44411606-12', 'auto', {});
+     
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+  ga('create', 'UA-69802193-1', 'auto', {'name': 'GoAn2', 'allowLinker':true});
+  ga('GoAn2.send', 'pageview');
+</script>
+  
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datos.gob.mx/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+    
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Mortalidad Materna - Mortalidad Materna para el periodo 2002 - 2016 de SALUD - datos.gob.mx/busca">
+  <meta property="og:description" content="La base de datos contiene información de los casos de defunción relacionados con la mortalidad materna, esta información es pública.
+NOTA: Se realizó diversos ajustes en acuerdo entre Secretaría de...">
+
+  
+    
+  <style type="text/css">
+    .breadcrumb>li:last-child>a { pointer-events: all !important; }
+  </style>
+
+  </head>
+
+  
+  <body data-site-root="https://datos.gob.mx/busca/" data-locale-root="https://datos.gob.mx/busca/" >
+
+    
+    <div class="hide"><a href="#content">Ir al contenido</a></div>
+  
+
+  
+    
+
+<dgm-navbar></dgm-navbar>
+  
+
+  
+    <div role="main">
+        
+          
+            
+            <div class="flash-messages">
+              
+            </div>
+          
+          
+            <div class="toolbar breadcrumb-container">
+               <div class="container-fluid">
+                 <div class="row">
+                   
+                     
+                        <div class="col-md-8 col-sm-12">
+                            <ul class="breadcrumb">
+                              <li><a href="/busca/dataset"><i class="glyphicon glyphicon-home"></i></a></li>
+                              
+  
+  
+    
+    
+      
+      <li><a href="https://datos.gob.mx/busca/organization">Instituciones</a></li>
+      <li><a href="https://datos.gob.mx/busca/organization/salud">SALUD</a></li>
+    
+      <li><a href="https://datos.gob.mx/busca/dataset/mortalidad-materna">Mortalidad Materna</a></li>
+  
+
+  
+
+                            </ul>
+                        </div>
+                        
+                     
+                    
+                     <div class="col-md-4 col-sm-12">
+                        <ul class="submenu">
+                            <li><a href="/busca/dataset">Todos los datos</a></li>
+                            <li><a href="/busca/organization">Instituciones</a></li>
+                            <li><a href="/busca/group">Grupos</a></li>
+                            <li><a href="/idmx">IDMX</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>
+                            Datos Abiertos
+                        </h1>
+                        <div id="main-container">
+                            <div class="row">
+                                
+                                    <div id="sidebar" class="col-md-3 col-sm-3">
+                                        
+                                    </div>
+                                
+
+                                
+  
+    <div id="content" class="col-md-12 no-border details">
+        
+            <h1>Mortalidad Materna para el periodo 2002 - 2016 de SALUD</h1>
+        
+        
+            
+                <a href="http://www.dgis.salud.gob.mx/descargas/datosabiertos/mortalidad_materna_2002-2016.zip" class="btn btn-primary" onclick="registerDownload('')" style="padding-right: 10px;" title="http://www.dgis.salud.gob.mx/descargas/datosabiertos/mortalidad_materna_2002-2016.zip">Descargar</a>
+            
+        
+        
+          <p>La base de datos contiene información de los casos de defunción relacionados con la mortalidad materna, esta información es pública.
+NOTA: Se realizó diversos ajustes en acuerdo entre Secretaría de Salud e INEGI. <a href="http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/mortalidad/MortalidadGeneral.asp?s=est&amp;c=11144&amp;proy=mortgral_mg" target="_blank" rel="nofollow">http://www.inegi.org.mx/sistemas/olap/Proyectos/bd/continuas/mortalidad/MortalidadGeneral.asp?s=est&amp;c=11144&amp;proy=mortgral_mg</a>)</p>
+        
+        
+
+      
+        
+          
+            
+            
+
+          
+          
+              <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="preview">
+                  
+                    
+                    
+                  </div>
+              </div>
+          
+        
+      
+
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script type="text/javascript">
+         $(document).ready(function() {
+           $('.tab-content').hide();
+           $('.nav-tabs-plain').hide();
+           var notFormatValid= $('.data-viewer-info');
+           if (notFormatValid.length == 0) {
+             setTimeout(function(){
+               var hide= $('.recline-data-explorer');
+               if(hide.length > 0) {
+                 $('.tab-content').show();
+                 $('.nav-tabs-plain').show();
+               };
+             }, 10000);
+           };
+         });
+       </script>
+            <script type="text/javascript">
+              $(document).ready(function(){
+                // Inyeccion de metadatos Adela (TEMPORALMENTE)
+                  var xhr;
+                  if (window.XMLHttpRequest) xhr = new XMLHttpRequest();
+                  else xhr = new ActiveXObject("Microsoft.XMLHTTP");
+
+                  xhr.open('GET', 'https://datos.gob.mx/adela/api/v1/distributions/mortalidad-materna-para-el-periodo-2002-2016-de-salud', false);
+                  xhr.onreadystatechange = function () {
+                      if (xhr.readyState===4 && xhr.status===200) {
+                        var items = JSON.parse(xhr.responseText).distribution;
+                        if(items.dataset){
+                          document.getElementById('accrualPeriodicity').innerHTML = items.dataset.accrualPeriodicity;
+                          $(".accrualPeriodicity").show();
+                          $("#th_accrualPeriodicity").show();
+                        }
+                        if(items.temporal){
+                          var dateArray = items.temporal.split('/');
+                          var init = dateArray[0].slice(0, 10);
+                          var end = dateArray[1].slice(0, 10);
+                          document.getElementById('temporal').innerHTML = 'De ' + init + ' a ' + end;
+                          $(".temporal").show();
+                          $("#th_temporal").show();
+                        }
+                        if(items.codelist){
+                          document.getElementById('codelist').innerHTML = items.codelist;
+                          $(".codelist").show();
+                          $("#th_codelist").show();
+                        }
+                        if(items.codelistLink){
+                          document.getElementById('codelist_link').innerHTML = items.codelistLink;
+                          $(".codelist_link").show();
+                          $("#th_codelist_link").show();
+                        }
+                        if(items.tools){
+                          document.getElementById('visualization').innerHTML = items.tools;
+                          $(".visualization").show();
+                          $("#th_visualization").show();
+                        }
+                        if(items.spatial){
+                          document.getElementById('spatial').innerHTML = items.spatial;
+                          $(".spatial").show();
+                          $("#th_spatial").show();
+                        }
+                        if(items.copyright){
+                          document.getElementById('copyright').innerHTML = items.copyright;
+                          $(".copyright").show();
+                          $("#th_copyright").show();
+                        }
+                        if(items.adela_created){
+                          document.getElementById('adela_created').innerHTML = items.adela_created;
+                          $(".adela_created").show();
+                          $("#th_adela_created").show();
+                        }
+                        if(items.modified){
+                          document.getElementById('adela_modified').innerHTML = items.modified;
+                          $(".adela_modified").show();
+                          $("#th_adela_modified").show();
+                        }
+                      }
+                  }
+
+                  xhr.send();
+                  var resource_id = "35c2e70b-14fc-4cb0-8f28-1b3af37b2473",
+                      api_datos_url = 'https://api.datos.gob.mx',
+                      api_geo_url = 'https://api.datos.gob.mx/v2/ckan-geoserver',
+                      geo_url_wfs = "https://geo.datos.gob.mx/geoserver/ckan/ows?service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json&typeName=",
+                      geo_url_wms = "https://geo.datos.gob.mx/geoserver/ckan/wms?service=WMS&version=1.1.0&request=GetMap&styles=&bbox=-117.773,14.987,-85.605,32.916&width=800&height=600&srs=EPSG:4326&format=image/png&layers=",
+                      
+                      add_url_geo = function (resource) {
+                        var name_api = resource.geoserver;
+                        return '<a href="' + geo_url_wfs + resource.geoserver + '">' + name_api + '</a><br>'; 
+                      };
+                      show_api_geo = function (url) {
+                        $("#spatial_url").html(url);
+                        $("#th_spatial_url").show();
+                        $(".spatial_url").show();
+                      };
+                      show_api = function(api_url){
+                        $("#api_url").html('<a href="' + api_url + '">Consultar</a>');
+                        $("#th_api_url").show();
+                        $(".api_url").show();
+                      };
+                      checkLengthGeo = function (length) {
+                        if(length > 8){
+                          $("#th_spatial_url").css("height", "200px");
+                        }
+                      };
+
+                  $.get(api_datos_url,{ 'resource-id': resource_id }, function(data, status){
+                    if(data.results.length > 0){
+                      urlAPI = data.results[0].url;
+                      show_api(urlAPI);
+                    }
+                  });
+
+                  $.get(api_geo_url, { ckan: resource_id }, function (data, status) {
+                  if (data.results.length > 0) {
+                    var htmlUrls = '';
+                    checkLengthGeo(data.results.length);
+                    data.results.forEach(element => {
+                      htmlUrls = htmlUrls + add_url_geo(element);
+                    });
+                    show_api_geo(htmlUrls);
+                  }
+                });
+              });
+           </script>
+           <div id="additionals" class="row">
+                <div id="sidebar" class="col-md-3">
+                    
+                        
+
+
+  
+    <section class="module module-narrow resources">
+      
+        
+          <h2 class="module-heading"><i class="icon-copy"></i> Recursos</h2>
+        
+        
+          <ul class="unstyled nav nav-simple">
+            
+              <li class="nav-item active">
+                <a class=" active" href="/busca/dataset/mortalidad-materna/resource/35c2e70b-14fc-4cb0-8f28-1b3af37b2473?inner_span=True"><span>Mortalidad Materna para el periodo 2002 - 2016 de SALUD</span></a>
+              </li>
+            
+          </ul>
+        
+      
+    </section>
+  
+
+                    
+
+                    
+    <h4>Calidad</h4>
+<div>
+    <p id="quality-score" style="font-weight: bold; text-align: center; font-size: 16px; background-color: #0c9; color: white; padding: 5px;"></p>
+    <p style="text-align: center;"><a href="https://github.com/mxabierto/dora/blob/master/src/dora/p/calificacion.clj">¿Como se califica este recurso?</a></p>
+    <script>
+        var xhr;
+        if (window.XMLHttpRequest) xhr = new XMLHttpRequest();
+        else xhr = new ActiveXObject("Microsoft.XMLHTTP");
+        xhr.open('GET', 'https://api.datos.gob.mx/v1/data-fusion?ckan.resource.name=Mortalidad Materna para el periodo 2002 - 2016 de SALUD', false);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState===4 && xhr.status===200) {
+                var response = JSON.parse(xhr.responseText),
+                    dataset = {},
+                    calificaion = "BAJA";
+                if(response.results !== null){
+                    if(response.results.length === 0){
+                        document.getElementById('quality-score').innerHTML = "Está en proceso de evaluación";
+                        return false;
+                    } else {
+                        dataset = response.results[0];
+                        switch(dataset.calificacion){
+                            case "oro":
+                                calificaion = "ORO";
+                                break;
+                            case "plata":
+                                calificaion = "PLATA";
+                                break;
+                            case "bronce":
+                                calificaion = "BRONCE";
+                                break
+                            default:
+                                calificaion = "BAJA";
+                        }
+                    }
+               }
+                document.getElementById('quality-score').innerHTML = calificaion;
+            } else {
+                document.getElementById('quality-score').innerHTML = "BRONCE";
+            }
+        }
+        xhr.send();
+    </script>
+</div>
+
+                </div>
+                <div id="info" class="col-md-9">
+                   
+                        
+                          <section class="module">
+                            
+  
+  
+                            <div class="module-content">
+                              <h2>Información adicional</h2>
+                              <div class="panel panel-default">
+                                <table class="table table-bordered">
+                                <thead>
+                                  <tr>
+                                    <th class="th-header" scope="col" width="35%">Campo</th>
+                                    <th class="th-header" scope="col">Valor</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <th scope="row">Última actualización</th>
+                                    <td>
+                                      
+                                        
+                                          
+                                            Hace 1 mes
+                                          
+                                        
+                                          
+                                        
+                                          
+                                        
+                                          
+                                        
+                                          
+                                        
+                                          
+                                        
+                                      
+                                    </td>
+                                  </tr>
+                                  
+                                  <tr>
+                                    <th scope="row">Formato</th>
+                                    <td>ZIP</td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Licencia</th>
+                                    <td><a href="https://datos.gob.mx/libreusomx">
+	<img class="l-xs" src="https://cdn.datos.gob.mx/ckan/img/lu_t_b.png" alt="Libre Uso MX">
+</a></td>
+                                  </tr>
+                                  
+                                    
+                                  
+                                    
+                                  
+                                    
+                                  
+                                    
+                                  
+                                    
+                                  
+                                    
+                                      <tr class="toggle-more">
+                                        
+                                        <th scope="row">
+                                          
+                                          Estado
+                                          
+                                        </th>
+                                        <td>
+                                          
+                                            
+                                              Activo
+                                            
+                                          
+                                        </td>
+                                      </tr>
+                                    
+                                  
+                                  <tr class="adela_modified" style="display: none;">
+                                      <th id="th_adela_modified" scope="row">Fecha de última modificación de datos</th>
+                                      <td id="adela_modified"></td>
+                                  </tr>
+                                  <tr class="adela_created" style="display: none;">
+                                      <th id="th_adela_created" scope="row">Fecha de creación</th>
+                                    <td id="adela_created"></td>
+                                  </tr>
+                                  <tr class="accrualPeriodicity" style="display: none;">
+                                    <th id="th_accrualPeriodicity" scope="row">Periodo de actualización</th>
+                                    <td id="accrualPeriodicity"></td>
+                                  </tr>
+                                  <tr class="temporal" style="display: none;">
+                                    <th id="th_temporal" scope="row">Periodo cubierto por los datos</th>
+                                    <td id="temporal"></td>
+                                  </tr>
+                                  <tr class="codelist" style="display: none;">
+                                    <th id="th_codelist" scope="row">Codelist</th>
+                                    <td id="codelist"></td>
+                                  </tr>
+                                  <tr class="codelist_link" style="display: none;">
+                                    <th id="th_codelist_link" scope="row">Codelist Link</th>
+                                    <td id="codelist_link"></td>
+                                  </tr>
+                                  <tr class="visualization" style="display: none;">
+                                    <th id="th_visualization" scope="row">Herramientas para visualizar los datos</th>
+                                    <td id="visualization"></td>
+                                  </tr>
+                                  <tr class="copyright" style="display: none;">
+                                    <th id="th_copyright" scope="row">Copyright</th>
+                                    <td id="copyright"></td>
+                                  </tr>
+                                  <tr class="spatial" style="display: none;">
+                                    <th id="th_spatial" scope="row">Espacio geográfico</th>
+                                    <td id="spatial"></td>
+                                  </tr>
+                                  <tr class="spatial_url" style="display: none;">
+                                    <th id="th_spatial_url" scope="row">API geográfica</th>
+                                    <td id="spatial_url"></td>
+                                  </tr>
+                                  <tr class="api_url" style="display: none;">
+                                    <th id="th_api_url" scope="row">API</th>
+                                    <td id="api_url"></td>
+                                  </tr>
+                                  
+                                    
+                                  
+                                    
+                                  
+                                    
+                                      <tr class="toggle-more">
+                                        
+                                        <th scope="row">
+                                          
+                                          Id
+                                          
+                                        </th>
+                                        <td>
+                                          
+                                            35c2e70b-14fc-4cb0-8f28-1b3af37b2473
+                                          
+                                        </td>
+                                      </tr>
+                                    
+                                  
+                                    
+                                      <tr class="toggle-more">
+                                        
+                                        <th scope="row">
+                                          
+                                          Id del Paquete
+                                          
+                                        </th>
+                                        <td>
+                                          
+                                            306fc4ba-655b-462d-911b-543040135a39
+                                          
+                                        </td>
+                                      </tr>
+                                    
+                                  
+                                    
+                                      <tr class="toggle-more">
+                                        
+                                        <th scope="row">
+                                          
+                                          Id de Revisi&oacute;n
+                                          
+                                        </th>
+                                        <td>
+                                          
+                                            a86daaea-ba73-4fa6-a8fa-10eb0adbbad1
+                                          
+                                        </td>
+                                      </tr>
+                                    
+                                  
+                                    
+                                  
+                                </tbody>
+                              </table>
+                              </div>
+                            </div>
+                            
+
+                          </section>
+                        
+                      
+                </div>
+           </div>
+           <script type="text/javascript">
+             $(document).ready(function(){
+                $(".toggle-show-more").remove();
+                $(".toggle-seperator").remove();
+             });
+           </script>
+       </div>
+    
+
+
+                                    <div id="content" class="col-md-9 col-sm-9">
+                                        
+                                            
+                                        
+                                    </div>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        
+    </div>
+
+    <footer class="site-footer">
+    
+        <dgm-footer></dgm-footer>
+    
+
+    
+        
+    
+</footer>
+  
+    
+    
+    
+  
+  <script src="https://cdn.datos.gob.mx/bower_components/webcomponentsjs/webcomponents-lite.min.js" type="text/javascript"></script>
+      
+      
+      
+
+      
+  <script type="text/javascript">
+    function registerDownload(event){
+      ga('send', { 'hitType': 'pageview', 'page': '/busca/organization/salud/dataset/mortalidad-materna/resource/mortalidad-materna-para-el-periodo-2002-2016-de-salud/download', 'title': 'Download: Mortalidad Materna para el periodo 2002 - 2016 de SALUD' });
+      return true;
+    }
+  </script>
+
+  
+    
+    <div class="js-hide" data-module="google-analytics"
+      data-module-googleanalytics_resource_prefix="">
+    </div>
+  
+
+
+    
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/busca//fanstatic/vendor/:version:2018-06-14T20:59:44/jquery.min.js"></script>
+<script type="text/javascript" src="/busca//fanstatic/vendor/:version:2018-06-14T20:59:44/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/busca//fanstatic/base/:version:2018-06-14T20:59:44/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/busca//fanstatic/ckanext-googleanalytics/:version:2018-08-29T21:46:02/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/busca//fanstatic/mxtheme/:version:2018-08-29T21:48:42/:bundle:bootstrap.js;mx.js;popper.js"></script></body>
+</html>
